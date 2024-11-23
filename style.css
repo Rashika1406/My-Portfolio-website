@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+.container{
+    margin: 10px;
+    padding: 10px;
+}
+.section-one{
+    background-color: darksalmon;
+    color: black;
+    padding: 20px;
+}
+.section-one__name{
+    font-size: 40px;
+}
+.section-one__role{
+    font-size: 20px;
+}
+.section-one__button{
+    border: none;
+    background-color: orangered;
+    padding: 5px;
+    margin-top: 5px;
+
+}
+.section-one__button a{
+    text-decoration: none;
+    color: white;
+   
+}
+.section-two,.section-three,.section-four,.section-five{
+    margin-top: 20px;
+}
+.section-two__desc,.section-three__desc,.section-four__desc,.section-five__desc{
+    margin-top: 10px;
+}
+.section-three li,.section-four li{
+    list-style: none;
+}
+.section-three{
+    background-color: cornflowerblue;
+    color: black;
+    padding: 5px;
+    display: inline-block;
+    vertical-align: top;
+}
+.section-four{
+    background-color: darkcyan;
+    display: inline-block;
+    padding: 10px;
+    color: black;
+    vertical-align: top;
+    margin-left: 10px;
+}
+.section-four__title,.section-three__title{
+    text-decoration: underline;
+}
+.section-five{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+.section-five p{
+    padding-left: 5px;
+    
+}
+.section-five__desc a:hover{
+    color: blue;
+}
+.section-five__desc a{
+    color: blueviolet;
+}
+
+
+.contact{
+    margin-top: 20px;
+    padding: 5px;
+    
+}
+.contact-form table{
+    margin-top: 10px;
+}
+.contact-form input,textarea{
+    border: none;
+    border-bottom: solid black 1px;
+}
+.contact-form tr{
+    margin-top: 50px;
+}
+
+.contact-form button{
+    background-color: darkgoldenrod;
+    color: black;
+    border: none;
+    padding: 5px;
+}
+
+
